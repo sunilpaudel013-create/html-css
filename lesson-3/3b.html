@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson 3 excercise</title>
+</head>
+<body>
+    <h1>Bootstrap, background color and text color transition</h1>
+    <button class="start-button">Get started</button>
+    <button class="download-button">Download</button>
+
+    <style>
+        
+        .start-button 
+        {
+            background-color: blueviolet;
+            height: 45px;
+            width:110px;
+            color: white;
+            font-size: 16px;
+            border:none;
+            border-radius: 3px;
+            cursor: pointer;
+             transition: background-color 0.16s, color 0.15s;
+
+
+        }
+        .start-button:hover 
+        {
+            background-color: rgb(230, 198, 198);
+            color: blueviolet;
+        }
+
+        .download-button
+        {
+            background-color: white;
+            height:45px;
+            width: 110px;
+            color:gray;
+            border-color: gray;
+            border-width: 1px;
+            font-weight: 16px;
+            cursor: pointer;
+            margin-left: 10px;
+            border-radius: 3px;
+            transition: background-color 0.16s, color 0.15s;
+            
+        }
+        .download-button:hover 
+        {
+            background-color: gray;
+            color: white;
+
+        }
+    </style>
+</body>
+</html>

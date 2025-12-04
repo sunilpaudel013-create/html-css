@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber request button </title>
+</head>
+<body>
+    <h1>Uber request button opacity transition</h1>
+    <h2>Amazon add to cart button background color tranasition</h2>
+    <h3>github sign up button shadow transition</h3>
+    <button class = "uber">Request now</button>
+    <button class="amazon">Add to Cart</button>
+    <button class=" github-button">Sign up</button>
+    <style>
+
+        .uber 
+        {
+            background-color: black;
+            color: white;
+            height: 40px;
+            width: 100px;
+            border: none;
+            border-radius: 1px;
+            transition: opacity 1s;
+        }
+        .uber:hover 
+        {
+            opacity: 0.8;
+        }
+
+        .amazon
+        {
+            background-color: rgb(223, 234, 27);
+            border: none;
+            color: black;
+            height: 40px;
+            width: 200px;
+            font-size : 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background-color 0.15s;
+            margin-left: 50px;
+
+        }
+        .amazon:hover {
+            background-color:rgb(174, 174, 45);
+        }
+
+        .github-button 
+        {
+            background-color: rgb(75, 194, 75);
+            height: 40px;
+            width: 90px;
+            border: none;
+            border-radius:10px;
+            font-size: 15px;
+            margin-left: 15px;
+            transition: box-shadow 0.15s;
+            cursor:pointer;
+        }
+
+        .github-button:hover{
+            box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
+        }
+
+
+
+
+    </style>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.cat-image
+{
+    width:60px;
+    height: 60px;
+    border:none;
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: right;
+    vertical-align: middle;
+}
+
+.text-type 
+{
+    width: 200px;
+    border:none;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:20px;
+    margin-left:30px;
+    margin-bottom:30px;
+    font-size: 16px;
+    color: gray;
+    margin-right: 20px;
+}
+
+.tweet-button
+{
+    background-color: rgb(25, 156, 238);
+    width: 70px;
+    height: 35px;
+    border: none;
+    border-radius:15px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 1px 0px rgba(0,0,0,0.25);
+    
+}
+.tweet-button:active
+{
+    background-color:green;
+}

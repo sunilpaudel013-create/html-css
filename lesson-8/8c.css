@@ -1,0 +1,22 @@
+.google-image 
+{
+    width:300px;
+    object-position: center;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+
+input 
+{
+    display: block;
+    width: 500px;
+    padding-top:12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-left:100px;
+    color: gray;
+    border:none;
+    border-radius: 30px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}

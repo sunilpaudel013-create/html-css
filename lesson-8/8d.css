@@ -1,0 +1,51 @@
+input 
+{
+    font-size: 16px;
+    color: gray;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    border-color: gray;
+    border-style: solid;
+    border-radius:10px;
+    border-width: 1px;
+}
+.first-class 
+{
+    margin-left:200px;
+    width:160px;
+}
+
+.last-class
+{
+    width:160px;
+}
+
+.email-class
+{
+    display: block;
+    margin-left:200px;
+    margin-top:10px;
+    width:340px;
+    
+}
+.sign-button 
+{
+    margin-left: 200px;
+    margin-top:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    background-color: rgb(41, 131, 221);
+    width:350px;
+    border:none;
+    border-radius:10px;
+    font-weight:700;
+
+}
+.sign-button:active 
+{
+    background-color: aqua;
+}

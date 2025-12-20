@@ -1,0 +1,11 @@
+.title{
+    font-family: arial;
+}
+
+.box
+{
+    border:1px solid black;
+    width: 300px;
+    padding-left:20px;
+    padding-bottom:20px;
+}

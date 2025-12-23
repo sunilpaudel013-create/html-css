@@ -1,0 +1,15 @@
+.main-div
+{
+    display:flex;
+    flex-direction:row;
+}
+
+.first-div
+{
+    background-color: lightblue;
+    width:200px;
+}
+.second-div{
+    background-color: lightpink;
+    width:75px;
+}

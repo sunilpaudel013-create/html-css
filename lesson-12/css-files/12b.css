@@ -1,0 +1,19 @@
+.main-div{
+    display:flex;
+    flex-direction:row;
+}
+.first-div{
+    background-color:lightblue;
+    width:50px;
+}
+
+.second-div
+{
+    background-color:lightpink;
+    flex:1;
+}
+
+.third-div{
+    background-color:lightblue;
+    width:75px;
+}

@@ -1,0 +1,10 @@
+.main-div{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+}
+
+.firstdiv,.seconddiv,.thirddiv, .lastdiv{
+    background-color: lightpink;
+}

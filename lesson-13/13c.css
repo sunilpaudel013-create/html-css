@@ -1,0 +1,55 @@
+.flexbox
+{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    width:500px;
+    border:2px solid red;
+
+}
+.remaining-content
+{
+    display:flex;
+    flex-direction:row;
+    row-gap:20px;
+    border: 2px solid blue;
+    height:100px;
+    align-items: center;
+}
+
+
+.cat-image
+{
+    height:60px;
+    width:60px;
+    margin-right:18px;
+    border-radius: 32px;
+
+}
+
+.first-linecontent
+{
+    
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:center;
+}
+.main-title
+{
+    padding-top:8px;
+    font-weight:bold;
+    font-size:20px;
+    margin-right:150px;
+}
+.time-title
+{
+    padding-top:8px;
+    right:20px;
+}
+.second-linecontent{
+    font-weight:bold;
+    font-size:18px;
+    padding:0px;
+    
+}
